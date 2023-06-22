@@ -1,0 +1,11 @@
+# Site settings
+title: Cyril et Guillaume
+email: bonjour@cyrilconte.com
+sass:
+    load_paths:
+        - css
+collections:
+  chansons :
+    name: true
+    desc: true
+    duree: true
