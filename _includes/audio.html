@@ -87,13 +87,13 @@
             else { audio.pause(); }
         };
 
-        audio.onplay = () => { aPlayIco.src = "/medias/pause.png"; };
-        audio.onpause = () => { aPlayIco.src = "/medias/play.png"; };
+        audio.onplay = () => { aPlayIco.src = "./medias/pause.png"; };
+        audio.onpause = () => { aPlayIco.src = "./medias/play.png"; };
     });
 </script>
 
 <div class="player-wrapper">
-    <button id="aPlay-{{include.file}}"><img class="audio-icon" id="aPlayIco-{{include.file}}" src="/medias/play.png"
+    <button id="aPlay-{{include.file}}"><img class="audio-icon" id="aPlayIco-{{include.file}}" src="./medias/play.png"
             alt=""></button>
 
     <div>
